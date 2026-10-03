@@ -1,0 +1,61 @@
+
+> build
+> react-router build && cp -R build/client/seovyn-fw-remix/. build/client/ && rm -rf build/client/seovyn-fw-remix
+
+vite v6.4.3 building for production...
+transforming...
+✓ 50 modules transformed.
+Generated an empty chunk: "sitemap".
+rendering chunks...
+computing gzip size...
+build/client/.vite/manifest.json                2.37 kB │ gzip:  0.53 kB
+build/client/assets/app-BH9gLToJ.css            0.64 kB │ gzip:  0.38 kB
+build/client/assets/sitemap-l0sNRNKZ.js         0.00 kB │ gzip:  0.02 kB
+build/client/assets/post-7anQMC6W.js            0.40 kB │ gzip:  0.29 kB
+build/client/assets/blog-Ck48Lz9o.js            0.43 kB │ gzip:  0.29 kB
+build/client/assets/about-fFmKWtMK.js           0.46 kB │ gzip:  0.35 kB
+build/client/assets/root-BmXs5PWI.js            0.84 kB │ gzip:  0.45 kB
+build/client/assets/home-Dzu3YCAr.js            0.93 kB │ gzip:  0.53 kB
+build/client/assets/jsx-runtime-CYw-h-dk.js   131.36 kB │ gzip: 44.34 kB
+build/client/assets/entry.client-B1I8Rao5.js  183.79 kB │ gzip: 58.22 kB
+✓ built in 4m 8s
+  ⚠️  Future Flag Warning: Route middleware support is changing in React Router v8.
+     You can use the `future.v8_middleware` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_middleware
+  ⚠️  Future Flag Warning: Route module splitting behavior is changing in React Router v8.
+     You can use the `future.v8_splitRouteModules` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_splitroutemodules
+  ⚠️  Future Flag Warning: Vite Environment API usage is changing in React Router v8.
+     You can use the `future.v8_viteEnvironmentApi` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_viteenvironmentapi
+  ⚠️  Future Flag Warning: Request handling behavior is changing in React Router v8.
+     You can use the `future.v8_passThroughRequests` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_passthroughrequests
+  ⚠️  Future Flag Warning: Data request URL formats are changing in React Router v8.
+     You can use the `future.v8_trailingSlashAwareDataRequests` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_trailingslashawaredatarequests
+vite v6.4.3 building SSR bundle for production...
+transforming...
+✓ 12 modules transformed.
+rendering chunks...
+build/server/.vite/manifest.json       0.55 kB
+build/server/assets/app-BH9gLToJ.css   0.64 kB
+build/server/index.js                 14.66 kB
+
+✓ 1 asset cleaned from React Router server build.
+build/client/assets/app-BH9gLToJ.css
+
+Prerender (data): / -> build/client/seovyn-fw-remix/_root.data
+Prerender (html): / -> build/client/seovyn-fw-remix/index.html
+Prerender (html): /about -> build/client/seovyn-fw-remix/about/index.html
+Prerender (data): /blog -> build/client/seovyn-fw-remix/blog.data
+Prerender (html): /blog -> build/client/seovyn-fw-remix/blog/index.html
+Prerender (data): /sitemap.xml -> build/client/seovyn-fw-remix/sitemap.xml.data
+Prerender (resource): /sitemap.xml -> build/client/seovyn-fw-remix/sitemap.xml
+Prerender (data): /blog/hourly-vs-project-pricing -> build/client/seovyn-fw-remix/blog/hourly-vs-project-pricing.data
+Prerender (html): /blog/hourly-vs-project-pricing -> build/client/seovyn-fw-remix/blog/hourly-vs-project-pricing/index.html
+Prerender (data): /blog/how-to-track-billable-hours -> build/client/seovyn-fw-remix/blog/how-to-track-billable-hours.data
+Prerender (html): /blog/how-to-track-billable-hours -> build/client/seovyn-fw-remix/blog/how-to-track-billable-hours/index.html
+Prerender (html): SPA Fallback -> build/client/__spa-fallback.html
+Removing the server build in /private/tmp/claude-501/-Users-pankaj-seovyn/c26fb30f-4056-4a02-8682-da615fc1d2f7/scratchpad/langsites/seovyn-fw-remix/build/server due to ssr:false
+✓ built in 146ms

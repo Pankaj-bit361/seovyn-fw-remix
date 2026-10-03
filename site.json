@@ -1,0 +1,30 @@
+{
+  "name": "Fieldnote",
+  "tagline": "Simple time tracking and invoicing for freelancers",
+  "home": [
+    "Fieldnote is a time tracker for freelancers and small studios. Start a timer from your menu bar, tag the client and project, and turn tracked hours into an invoice in two clicks.",
+    "It works on Mac, Windows and the web, syncs between devices, and exports to CSV for your accountant."
+  ],
+  "about": [
+    "Fieldnote is made by two designers who were tired of spreadsheets and missed billable hours.",
+    "It costs $8 a month after a 14-day free trial, with no limit on clients or projects."
+  ],
+  "posts": [
+    {
+      "slug": "how-to-track-billable-hours",
+      "title": "How to track billable hours without losing time",
+      "description": "Habits that make sure every billable minute ends up on an invoice.",
+      "date": "2026-08-12",
+      "body": "Most freelancers lose billable time in small pieces: a five-minute email here, a quick call there.\n\n## Start the timer before you start the work\n\nMake it a habit: open the task, start the timer, then begin.\n\n## Tag as you go\n\nTag client and project when you start, not at the end of the week when you've forgotten.\n\n## Review every Friday\n\nTen minutes on Friday to fix gaps saves an afternoon at the end of the month."
+    },
+    {
+      "slug": "hourly-vs-project-pricing",
+      "title": "Hourly vs project pricing for freelancers",
+      "description": "When each pricing model works, and how to switch.",
+      "date": "2026-09-03",
+      "body": "Hourly pricing is fair when the scope is unclear. Project pricing rewards you for working efficiently.\n\n## Charge hourly when\n\nThe client keeps changing the brief, or the work is support and maintenance.\n\n## Charge per project when\n\nYou've done similar work many times and can estimate it well.\n\n## Use your tracked hours\n\nYour past time logs are the best guide to what a project price should be."
+    }
+  ],
+  "url": "https://pankaj-bit361.github.io/seovyn-fw-remix",
+  "base": "/seovyn-fw-remix"
+}
